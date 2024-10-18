@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>ADMISSION FORM</title>
+        <script>
+        function formvalidate(){
+           var firstname=document.f1.firstname.value;
+            var pass=document.f1.spass.value;
+            var pass=document.f1.rpass.value;
+            if(firstname==null||firstname=="") 
+    {
+        alert("you must fill in the firstname");
+        return false;
+    }
+            if(pass.length<3){
+            alert("the password should return more than 3 characters");
+        return false;
+          }
+          if(setpassword==Repeatpassword){
+          alert("subumit form");
+          return false; 
+        }
+    }
+        
+        function show(){
+            var passtag=document.f1.pass;
+            if(passtag.type=="password"){
+                passtag.type="text";
+            }else
+            {
+                passtag.type="password";
+            }
+        }
+        </script>
+    </head>
+    <body>
+        
+       <form name="f1" onsubmit="return formvalidate();" action="mypage.php">
+        <Label>firstname</Label>
+        <input type="text" name="firstname"/>
+        <br/>
+        <br/><Label>lastname</Label>
+        <input type="text" name="lastname"/><br/>
+        <br/><Label>Age</Label>
+        <input type="number" name="Age"/><br/>
+        <br/><Label>Username</Label>
+        <input type="text" name="Username"/><br/>
+        <br/><Label>setpassword</Label>
+        <input type="password" id="spass"/><br/>
+
+        <br/><Label> Repeatpassword</Label>
+            <input type="password" id="rpass"/><br/>
+       <br/> <input type="checkbox" name="ch" value="s" onclick="show();"/>show/hide password <br/>
+        <input type="submit" name="submit" value="submit"/>
+        
+        
+
+
+        </form>
+    </body>
+    
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <title> javascript</title>
+   <script>
+    function greetings()
+    {
+       alert("Good Morning.");
+    } 
+    function confirmation()
+    {
+      var x=confirm("do you want to proceed?");
+      if(x=true)
+      {
+        document.write("you clicked the ok button on confirm");
+        
+      }
+        else
+      {
+        document.write("you cancelled");
+      }
+      }
+        function getname()
+      {
+        var y=prompt("what is your name","john");
+        document.getElementById("fname").innerHTML="welcome"+y;
+      }
+    </script>
+
+         </head>
+   <body>
+    <td id="t"><del>2</del>
+      <div class="vertical-menu">
+      <a href="table2.html">home</a>
+      <a href="tables.html">our services</a>
+         <a href="ff.html">contact</a>
+      </div> 
+    <h1 style="text-align: right" id="fname"></h1>
+    <button onclick="getname();">display</button>
+    <button onclick="greetings();">greet me</button>
+    <button onclick="confirmation();">display</button>
+        <h1 id="head1"> introduction to javascript</h1>
+        <h3 id="head3"></h3>
+           <p> the stortage of convenient parking spots is a sign.</p>
+
+<script>
+    document.write("hello javascript!");
+document.write("<h3>hello javascript!</h3>");
+    //alert("welcome to my page.");
+    //confirm("do you want to proceed?");
+    //prompt("what is your name?","John");
+    var x=10;
+    var y=7;
+    var sum=x+y;
+  document.write("the summtion is"+sum);
+  document.getElementById("head3").innerHTML="hello world!";
+  document.getElementById("head1").innerHTML="World Javascript!";
+  var n= document.getElementById("head1");n.innerHTML="World Javascript!";
+  var m= document.getElementById("head3");m.innerHTML="hello world!"
+  n.style.color="blue";
+  n.style.backgroundColor="yellow";
+</script>
+      <p>application will be developed using<br/> android studio.</p>
+   <h2>learning about heading</h2>
+      </body>
+ </HTML>

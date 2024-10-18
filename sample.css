@@ -1,0 +1,8 @@
+body{}
+p{color: blueviolet;font-family:"sans serif" ;}
+#code{color: whitesmoke;}
+.c1{text-decoration: underline;}
+h3{color: blue;}
+a:link{text-decoration: none;color: maroon;border: 2px solid maroon;padding: 12px;display: block;width: 250px;}
+a:visited{text-decoration: none;color: maroon;border: 2px solid maroon;padding: 10px;display: inline-block;}
+a:hover{background-color: orangered;color: darkgreen;}

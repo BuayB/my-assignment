@@ -1,0 +1,14 @@
+table,td,th{border: 0px solid black;border-collapse: collapse;}
+table{width: 90%;height: 850px;margin: auto;background-color: rgb(250,240,250);}
+td{text-align: center;vertical-align: bottom;color: black;}
+table{text-align: center;background-color:whitesmoke,}
+#t{width: 30%; background-color: aqua;}
+#e{background-color: brown;}
+#w{background-color: blue;height: 160px;}
+#b{background-color: blueviolet;height: 160px;}
+img{float: right;width: 60px;}
+body{display: flex;justify-content: center;align-items: center;height: 100px;margin: 0;}
+:vertical-menu{display: flex;flex-direction: column;}
+:vertical-menu{display: block;padding: 15px;background-color: lightblue;text-align: center;
+margin-bottom: 15px;text-decoration: dashed;}
+:vertical-menu :hover{background-color: deepskyblue;}
